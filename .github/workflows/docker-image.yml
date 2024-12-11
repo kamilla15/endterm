@@ -24,7 +24,7 @@ jobs:
       with:
         push: true
         file: ./Dockerfile
-        tags: ${{ secrets.DOCKER_USERNAME }}/app:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/my-app:latest
 
   deploy:
     runs-on: ubuntu-latest
